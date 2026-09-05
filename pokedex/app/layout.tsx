@@ -1,5 +1,6 @@
 import "./globals.css";
 
+import Navbar from "./components/navbar";
 
 export default function LayoutProps({children}) {
 
@@ -7,6 +8,8 @@ export default function LayoutProps({children}) {
 
         <html lang="pt-br">
             <body>
+                <Navbar />
+                
                 {children}  
             </body>
         </html>
