@@ -6,7 +6,7 @@ import fotoPokedex from "./foto/images-removebg-preview.png"
 export default function navbar() {
 
     return (
-
+        
         <nav>
             <div className="bg-red-700 grid grid-cols-3 gap-42 pt-1 pb-3 pl-4 ">
                 <div className="w-20 h-auto">
