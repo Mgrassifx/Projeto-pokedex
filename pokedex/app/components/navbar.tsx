@@ -8,15 +8,24 @@ export default function navbar() {
     return (
         
         <nav>
-            <div className="bg-red-700 grid grid-cols-3 gap-42 pt-1 pb-3 pl-4 ">
-                <div className="w-20 h-auto">
+            <div className="bg-red-700 grid grid-cols-3 gap-42 pt-6 pb-6 pl-4 ">
+                <div className="w-40 h-auto">
                     <Image src={fotoPokedex} alt="foto pokedex"/>
                 </div>
                 <div>
-                    <ul className="grid grid-cols-3 justify-center gap-20 text-white">
-                        <Link className="text-xl" href= "/">Inicio</Link>
-                        <Link className="text-xl" href= "/pokemon"> Pokemon</Link>
-                        <Link className="text-xl" href= "/detalhes"> Detalhe</Link>
+                    <ul className="grid grid-cols-2 justify-center w-full text-center gap-10 p-2  ">
+                        <Link 
+                            className="text-3xl bg-white p-2 rounded-3xl shadow-md hover: transition-transform duration-700 hover:scale-103" 
+                            href= "/">
+                            <strong>Inicio</strong>
+                        </Link>
+
+                        <Link 
+                            className="text-3xl bg-white p-2 rounded-3xl shadow-md hover:transition-transform duration-700 hover:scale-103" 
+                            href= "/pokemon">
+                            <strong> Pokemon</strong>
+                        </Link>
+
                     </ul>
                 </div>
             </div>
